@@ -1,16 +1,16 @@
 ---
 home: true
 heroImage: logo.png
-heroText: Drawings and Writings
-tagline: by Jon Chui
+heroText: 陶工的泥土
+tagline: 我們只泥土，你是我們的陶工，我們都是你手中的作品（依64：7）
 # actionText: Get Started →
 # actionLink: /jon/
 features:
-- title: IB Chemistry
-  details: Notes on topics and a step-by-step guide to the internal assessment.
-- title: Words / pictures
-  details: Essays, technical / teaching tutorials, and pictorial guides.
-- title: Resources
-  details: LaTeX & Illustrator tools; code snippets; Anki decks & templates.
+- title: 朝聖
+  details: 尋根覓源
+- title: 耶穌
+  details: 走訪生平事蹟
+- title: 地圖
+  details: 認識人間聖地
 # footer: MIT Licensed | Copyright © 2018-present Evan You
 ---

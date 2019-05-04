@@ -3,8 +3,8 @@ const moment = require('moment');
 const path = require("path");
 
 module.exports = {
-    title: 'jon.hk',
-    description: 'Jon Chui',
+    title: 'etsou.hk',
+    description: '天主敎朝聖、聖經資源',
     transpileDependencies: [
         'vue-echarts',
         'resize-detector'
@@ -33,12 +33,12 @@ module.exports = {
             //     link: '/'
             // },
             {
-                text: 'Chem',
-                link: '/chem/'
+                text: '朝聖',
+                link: '/pilgrimage/'
             },
             {
-                text: 'Jon',
-                link: '/jon/'
+                text: '聖經',
+                link: '/bible/'
             },
             {
                 text: 'Sandbox',
@@ -79,112 +79,15 @@ module.exports = {
         ],
         sidebarDepth: 0,
         sidebar: {
-            '/chem/': [
-                // {
-                //         title: 'Home',
-                //         collapsable: false,
-                //         children: [
-                //             '/'
-                //         ]
-                //     },
+            '/pilgrimage/': [
                 {
-                    title: 'Course',
-                    collapsable: true,
+                    title: '朝聖',
+                    collapsable: false,
                     children: [
-                        ['./course/', '📂 Info'],
-                        ['./course/paper', '💯 Paperwork'],
-                        ['./course/study', '✏️ How to study'],
-                        {
-                            title: 'Syllabus',
-                            sidebarDepth: 0,
-                            children: [
-                                ['./course/syllabus/', 'En 🇬🇧 🇺🇸 🇨🇦'],
-                                ['./course/syllabus/es', 'Es 🇲🇽 🇪🇸 🇦🇷']
-                            ]
-                        },
-                    ],
-                },
-                {
-                    title: 'Topics',
-                    children: [
-                        ['./topic/0/', '0 - Foundations'],
-                        ['./topic/1/', '1 - Stoichiometry'],
-                        ['./topic/11A/', '11A - Measurements'],
-                        ['./topic/2/', '2/12 - Atomic structure'],
-                        ['./topic/3/', '3/13 - Periodicity'],
-                        ['./topic/4/', '4/14 - Structure & Bonding'],
-                        ['./topic/5/', '5/15 - Energetics'],
-                        ['./topic/6/', '6/16 - Kinetics'],
-                        ['./topic/7/', '7/17 - Equilibrium'],
-                        ['./topic/8/', '8/18 - Acids & Bases'],
-                        ['./topic/9/', '9/19 - Redox'],
-                        ['./topic/10/', '10/20 - Organic Chemistry'],
-                        ['./topic/11B/', '11B/21 - Spectroscopy'],
-                        ['./topic/D/', 'D - Drugs & Medicine 💊'],
-                        // ['./topic/', ''],
-
+                        '/'
                     ]
                 },
-                {
-                    title: 'IA',
-                    children: [
-                        ['./IA/', 'Internal Assessment'],
-                        ['./IA/plan', '1. Planning'],
-                        {
-                            title: 'Inventory',
-                            children: [
-                                ['./IA/equipment', '🔬 Sensors and Equipment'],
-                                ['./IA/reagent', '🔥 Reagents'],
-                            ]
-                        }
-                    ]
-                },
-                {
-                    title: 'Skills',
-                    children: [
-                        {
-                            title: '💾 ICT',
-                            children: [
-                                ['./skills/analysis/spreadsheet/', '📊 Spreadsheet'],
-                                ['./skills/mol-model/', 'Molecular modeling'],
-                                ['./skills/database/', '📇 Exploring databases'],
-                            ]
-                        },
-                        {
-                            title: '🥼 Lab',
-                            children: [
-                                ['./skills/lab', 'Wet lab skills'],
-                                ['./skills/image-analysis/', 'Image analysis'],
-                            ]
-                        },
-                        {
-                            title: '✍️ Writing',
-                            children: [
-                                ['./skills/writing', 'On science writing'],
-                                // ['./skills/writing', 'On science writing'],
-                            ]
-                        }
-                    ],
-                },
-                {
-                    title: 'Resources',
-                    sidebarDepth: 0,
-                    children: [
-                        ['./resources/resources/', '🧳 Resources'],
-                        ['./resources/notes/', '📘 Notes'],
-                        ['./resources/tools/', '🔧 Tools'],
-                        {
-                            title: '🔤 Glossary',
-                            children: [
-                                ['./resources/glossary/', 'En 🇬🇧 🇺🇸 🇨🇦'],
-                                ['./resources/glossary/es', 'Es 🇲🇽 🇪🇸 🇦🇷'],
-                                ['./resources/glossary/fr', 'Fr 🇫🇷 🇨🇩 🇨🇦'],
-                                ['./resources/glossary/ja', 'Jp 🇯🇵'],
-                            ]
-                        },
-                        ['./resources/bestiary/', 'Bestiary'],
-                    ],
-                },
+   
                 // {
                 //     title: 'Sandbox',
                 //     children: [
@@ -197,52 +100,18 @@ module.exports = {
                 // },
             ],
 
-            '/jon/': [{
-                title: 'About',
-                collapsable: true,
-                children: [
-                    ['./', 'Bio'],
-                    ['./website', '🗄️ Website'],
-                    ['./colophon', '⌨️ Colophon'],
-                    ['./registry', '💰 Registry of interests'],
-                ],
-            },
-               /* {
-                    title: 'Essays',
+            '/bible/': [{
+                    title: '聖經',
+                    collapsable: true,
                     children: [
-                        ['./essays/about-website/', 'About website'],
-                    ],
-                },*/
-                {
-                    title: 'Guides',
-                    children: [
-                        ['./guides/', 'Guides'],
-                    ],
-                },
-                {
-                    title: 'Anki',
-                    children: [
-                        ['./anki/', 'Anki'],
-                    ],
-                },
-                {
-                    title: 'Teaching',
-                    sidebarDepth: 1,
-                    children: [
-                        ['./teaching/', 'Teaching'],
-                        ['./teaching/priorities', '1. Priorities'],
-                        ['./teaching/habits', '2A. Habits'],
-                        ['./teaching/techniques', '2B. Techniques'],
-                        ['./teaching/plays', '3. Plays'],
+                        ['./chronology/', '耶穌生平事列']
                     ],
                 },
             ],
-
             '/sandbox/': [{
                 title: 'Sandbox',
                 children: [
                     ['./', 'All features'],
-                    ['./airtable/', 'Airtable pull'],
                 ],
             }, ]
         },
