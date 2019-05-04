@@ -1,9 +1,9 @@
 {
-  "name": "chem-jon-hk",
-  "homepage": "www.jon.hk",
+  "name": "etsou-hk",
+  "homepage": "www.etsou.hk",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jkwchui/chem-jon-hk.git"
+    "url": "https://github.com/jkwchui/etsou-hk.git"
   },
   "version": "1.0.0",
   "main": "index.js",
@@ -27,7 +27,7 @@
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^7.1.0",
-    "vuepress": "^0.14.11",
+    "vuepress": "^1.0.0-alpha.47",
     "webpack": "^4.0.0"
   },
   "dependencies": {

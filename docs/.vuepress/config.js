@@ -44,38 +44,6 @@ module.exports = {
                 text: 'Sandbox',
                 link: '/sandbox/'
             },
-            // {
-            //     text: 'BabylonJS',
-            //     link: '/babylonjs/'
-            // },
-            // {
-            //     text: 'pdf',
-            //     link: '/pdf/'
-            // },
-            // {
-            //     text: 'Syllabus',
-            //     link: '/Syllabus/'
-            // },
-            // {
-            //     text: 'Table',
-            //     link: '/Table/'
-            // }
-            // {
-            //     text: 'Admin',
-            //     link: '/admin/#/',
-            // }
-            // {
-            //     text: 'Languages',
-            //     items: [{
-            //             text: 'Chinese',
-            //             link: '/language/chinese/'
-            //         },
-            //         {
-            //             text: 'Japanese',
-            //             link: '/language/japanese/'
-            //         }
-            //     ]
-            // }
         ],
         sidebarDepth: 0,
         sidebar: {
