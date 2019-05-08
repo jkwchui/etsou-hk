@@ -1,6 +1,6 @@
 # 耶穌生平事列
 
-## 序言
+##### 前言
 
 依照[思高中文聖經](http://www.ccreadbible.org/Chinese%20Bible)附頁的「耶穌生平年表」排列
 
