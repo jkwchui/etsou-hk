@@ -52,7 +52,40 @@ module.exports = {
                     title: '朝聖',
                     collapsable: false,
                     children: [
-                        '/'
+                        {
+                            title: '中東',
+                            children: [
+                                ['./middleeast/israel/', '以色列'],
+                                ['./middleeast/turkey/', '土耳其'],
+                            ]
+                        },
+                        {
+                            title: '歐洲',
+                            children: [
+                                ['./europe/france/', '法國'],
+                                ['./europe/greece/', '希臘'],
+                                ['./europe/italy/', '意大利'],
+                                ['./europe/portugal/', '葡萄牙'],
+                                ['./europe/spain/', '西班牙'],
+                            ]
+                        },
+                        {
+                            title: '美洲',
+                            children: [
+                                ['./america/cuba/', '古巴'],
+                                ['./america/mexico/', '墨西哥'],
+                            ]
+                        },
+                        {
+                            title: '亞洲',
+                            children: [
+                                ['./asia/china/', '中國'],
+                                ['./asia/korea/', '韓國'],
+                                ['./asia/malaysia/', '馬來西亞'],
+                                ['./asia/singapore/', '星加玻'],
+                                ['./asia/taiwan/', '台灣'],
+                            ]
+                        },
                     ]
                 },
    
