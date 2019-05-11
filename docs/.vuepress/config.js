@@ -64,6 +64,7 @@ module.exports = {
                             children: [
                                 ['./europe/france/', '法國'],
                                 ['./europe/greece/', '希臘'],
+                                ['./europe/ireland/', '愛爾蘭'],
                                 ['./europe/italy/', '意大利'],
                                 ['./europe/portugal/', '葡萄牙'],
                                 ['./europe/spain/', '西班牙'],
