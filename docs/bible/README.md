@@ -1,3 +1,1 @@
-# 聖經研讀
-
-lorum ipsum loren ipsum
+# 聖經
